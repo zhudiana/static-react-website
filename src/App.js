@@ -1,9 +1,17 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BodyCollection from "./components/bodySection/BodyCollection";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navbar />} />
+        </Routes>
+      </BrowserRouter>
+      <BodyCollection />
     </div>
   );
 }
