@@ -12,43 +12,125 @@
 }
 .ver-text1 {
   writing-mode: sideways-lr;
-  margin-right: -5px;
+  margin-right: -8px;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: -1px;
 }
 .body1-list-content {
   display: flex;
 }
-.ver-text1-container {
-  margin-top: 100px;
+.ver-text1-container h3 {
+  /* margin: 100px -80px 0 0; */
+  margin-top: 70px;
+  margin-right: -150px;
+  padding-left: 40px;
 }
+
 .ver-text2 {
-  font-size: 50px;
-  margin-top: 15px;
-  margin-bottom: -10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  margin: 50px 0px 0px 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(236, 39, 39);
+  height: 250px;
+  position: relative;
+  font-weight: 900;
 }
-.inner-container {
-  width: 10px;
+.text2-container h1 {
+  width: 115px;
+  overflow-wrap: break-word;
+  padding-left: 60px;
+  margin-left: 60px;
+  letter-spacing: -3px;
+  line-height: 70px;
 }
+
 .ver-text2-container {
-  margin-left: 10px;
-  margin-top: 20px;
-}
-.ver-text2-container {
-  width: 250px;
-  margin-top: 100px;
+  width: 200px;
+  margin-top: -30px;
+  margin-right: -30px;
+  margin-left: 40px;
+  position: relative;
+  font-size: 13px;
 }
 h1 {
   margin-left: 30px;
 }
+.arrow-container {
+  margin-left: 101%;
+  margin-top: -74px;
+  position: relative;
+}
+.right-arrow {
+  background-color: rgb(236, 39, 39);
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+.left-arrow {
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  color: #000;
+  cursor: pointer;
+}
+.arrow {
+  margin: 10px 10px 10px 10px;
+}
 
+.left-num {
+  margin: 120px 0 0 50px;
+  /* background-color: red; */
+  cursor: "pointer";
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+.left-num h3 {
+  margin-left: 60%;
+  cursor: pointer;
+}
+.left-num h1 {
+  cursor: pointer;
+}
+
+/* body2 style */
 .body2-container ul {
   list-style: none;
   display: flex;
-  width: 60%;
+  width: 115%;
+  margin-top: 20px;
+  /* margin-bottom: -70px; */
 }
 
 .body2-container img {
   width: 300px;
+}
+.text1 {
+  color: red;
+}
+.text-content {
+  margin-left: 15px;
+}
+.x-sign {
+  color: red;
+  font-size: 20px;
+}
+.sign-next-text {
+  margin-top: -20px;
+  margin-left: 25px;
+  font-weight: 900;
+}
+.text-content p {
+  font-size: 13px;
+}
+.title-body2 {
+  margin-left: 80px;
+  margin-bottom: -20px;
+}
+.image-list-body2 {
+  margin-bottom: 30px;
 }
 
 .body2-desc {
