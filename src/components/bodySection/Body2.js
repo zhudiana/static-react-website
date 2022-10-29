@@ -19,15 +19,17 @@ const Body2 = (props) => {
               <h6 className="sign-next-text">{props.text2}</h6>
             </li>
           </ul>
-          <ul>
-            <li>
-              <img src={props.image2} />
-              <h3>{props.title2}</h3>
-              <p>{props.descT}</p>
-              <p>{props.mainDesc}</p>
-              <h3>{props.lastText}</h3>
-            </li>
-          </ul>
+        </ul>
+        <ul>
+          <div className="left-component">
+            <h1 className="body2-over-image-num">{props.text3}</h1>
+            <img src={props.image2} className="boots-image" />
+            <h4 className="title2-body2">{props.title2}</h4>
+            <p className="bold-desc">{props.descT}</p>
+            <p className="mainDesc">{props.mainDesc}</p>
+            <FaTimes className="left-x-sign" />
+            <h5>{props.lastText}</h5>
+          </div>
         </ul>
       </div>
     </>

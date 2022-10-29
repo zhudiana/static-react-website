@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BodyCollection from "./components/bodySection/BodyCollection";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <BodyCollection />
+      <Footer />
     </div>
   );
 }

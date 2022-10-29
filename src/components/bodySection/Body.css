@@ -4,6 +4,7 @@
 }
 .body1-list-content {
   list-style: none;
+  display: flex;
 }
 .everest-pic {
   width: 100%;
@@ -18,9 +19,12 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: -1px;
 }
-.body1-list-content {
-  display: flex;
+.body1-desc {
+  margin-left: 80px;
+  width: 170px;
+  font-size: 10px;
 }
+
 .ver-text1-container h3 {
   /* margin: 100px -80px 0 0; */
   margin-top: 70px;
@@ -30,12 +34,20 @@
 
 .ver-text2 {
   font-size: 80px;
-  margin: 50px 0px 0px 0px;
+  margin: 50px 10px 0px 0px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(236, 39, 39);
   height: 250px;
   position: relative;
   font-weight: 900;
+}
+.body1-social-media {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.social {
+  margin-top: 40px;
 }
 .text2-container h1 {
   width: 115px;
@@ -84,15 +96,17 @@ h1 {
   margin: 120px 0 0 50px;
   /* background-color: red; */
   cursor: "pointer";
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
 }
 .left-num h3 {
-  margin-left: 60%;
+  margin-left: 80%;
   cursor: pointer;
+  font-size: 12px;
 }
 .left-num h1 {
   cursor: pointer;
+  margin-left: 50%;
 }
 
 /* body2 style */
@@ -100,15 +114,21 @@ h1 {
   list-style: none;
   display: flex;
   width: 115%;
-  margin-top: 20px;
+  margin-top: 30px;
   /* margin-bottom: -70px; */
 }
-
+.body2-over-image-num {
+  color: red;
+  margin-top: -50%;
+}
 .body2-container img {
   width: 300px;
+  position: relative;
 }
+
 .text1 {
   color: red;
+  margin-bottom: -10px;
 }
 .text-content {
   margin-left: 15px;
@@ -124,18 +144,258 @@ h1 {
 }
 .text-content p {
   font-size: 13px;
+  width: 60%;
 }
 .title-body2 {
   margin-left: 80px;
-  margin-bottom: -20px;
+  margin-bottom: -40px;
+  margin-top: 50px;
 }
 .image-list-body2 {
-  margin-bottom: 30px;
+  margin-bottom: -50px;
 }
 
 .body2-desc {
   width: 50%;
   margin-left: 2%;
+}
+.left-component {
+  width: 20%;
+  margin-left: 60%;
+  margin-top: 0px;
+}
+.boots-image {
+  margin-left: -20%;
+  margin-top: -20%;
+}
+.title2-body2 {
+  margin-left: -10%;
+  margin-bottom: 10%;
+  /* margin-top: -10%; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  letter-spacing: -1px;
+}
+.bold-desc {
+  margin-top: -60%;
+  margin-left: -25px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+}
+.mainDesc {
+  margin-left: -25px;
+  font-size: 12px;
+}
+.left-x-sign {
+  color: red;
+  font-size: 20px;
+  margin-left: -25px;
+}
+.left-component h5 {
+  margin-top: -23px;
+  margin-left: 5px;
+}
+
+/* body3 */
+.body3-container {
+  margin-top: 100px;
+}
+.body3-text-container {
+  width: 200px;
+  margin-left: 40px;
+}
+
+.body3-list-content {
+  list-style: none;
+  display: flex;
+}
+.body3-side-text {
+  writing-mode: sideways-lr;
+  font-size: 30px;
+  margin-bottom: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(219, 209, 209);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.ver-num {
+  font-size: 7rem;
+  color: rgb(236, 39, 39);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  letter-spacing: -15px;
+  font-weight: 900;
+}
+span {
+  margin-top: -30px;
+}
+.under-text {
+  margin-top: -65%;
+  width: 100px;
+  margin-left: 30px;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.under-text h5 {
+  font-size: 12px;
+}
+.body3-upper-text {
+  margin-top: 90%;
+  margin-left: 30px;
+  font-size: 12px;
+  margin-bottom: -40px;
+}
+.body3-over-image-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+  padding-top: 130px;
+}
+.body3-over-image-text p {
+  width: 90%;
+  margin-left: 12%;
+}
+.body3-over-container {
+  border-color: red;
+  border-style: solid;
+  border-width: 10px;
+  width: 250px;
+  height: 400px;
+  position: relative;
+  margin-left: 100%;
+  color: #fff;
+  margin-top: 100px;
+}
+.body3-under-image {
+  width: 145%;
+  height: 100vh;
+  margin-left: -55%;
+}
+.under-text-sign {
+  margin-left: 12%;
+}
+
+/* body4 */
+.body4-list-content {
+  list-style: none;
+  display: flex;
+}
+.body4-ver-text1 {
+  writing-mode: sideways-lr;
+  margin-right: -8px;
+  font-size: 85px;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: -1px;
+  margin-left: 10%;
+  color: rgb(236, 39, 39);
+}
+.body4-ver-text2 {
+  font-size: 25px;
+  margin-left: 40px;
+}
+.body4-text2-container {
+  background-color: #fff;
+  height: 200px;
+  width: 300px;
+  position: relative;
+  margin-top: 75%;
+  margin-left: 40%;
+}
+.body4-text2-container p {
+  margin-left: 15%;
+}
+.body4-text2-container h6 {
+  margin-top: -23px;
+  margin-left: 20%;
+}
+.body4-image {
+  margin-left: -25%;
+  height: 380px;
+  width: 180%;
+  margin-top: 30px;
+}
+.body4-arrow-container {
+  position: relative;
+  margin-left: 149%;
+  margin-top: -13%;
+}
+.body4-right-arrow {
+  background-color: rgb(236, 39, 39);
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+.body4-left-arrow {
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  color: #000;
+  cursor: pointer;
+}
+.body4-num {
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  margin-left: 140%;
+  margin-top: -71%;
+  position: relative;
+}
+.body4-num h1 {
+  padding-top: 10px;
+  /* margin-left: 50px; */
+}
+.body4-num h4 {
+  margin-top: -10px;
+  margin-left: 50px;
+}
+/* body5 */
+.body5-container {
+  width: 40%;
+  margin-top: 10%;
+}
+.body5-image {
+  width: 350px;
+  height: 350px;
+}
+
+.body5-container ul {
+  list-style: none;
+  display: flex;
+  margin-left: 10%;
+}
+.body5-container ul li {
+  margin-right: 30px;
+}
+.body5-upper-text {
+  position: relative;
+  margin-top: -40%;
+  color: #fff;
+  width: 70%;
+}
+.body5-lower-text {
+  color: #fff;
+  font-size: 20px;
+}
+.body5-upper-text,
+.body5-lower-text {
+  margin-left: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.body5-side-text {
+  font-size: 80px;
+  text-transform: uppercase;
+}
+.body5-side-desc {
+  font-size: 12px;
+  margin-left: 40px;
+}
+.body5-side-text,
+.body5-side-desc {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 @media screen and (max-width: 960px) {

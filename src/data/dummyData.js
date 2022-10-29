@@ -8,6 +8,7 @@ export const dummyData = [
     description:
       "The friction fire! A friction fire not only keeps you warm once you get it going, but it also gets you warm while you're trying to make the fire.",
     text2: "lorem ipsom",
+    text3: "ENDURANCE",
     image2:
       "https://www.stoneycreek.co.nz/image/magictoolbox_cache/8c95d73fec130487c102a73bf1ab42ce/5/0/5003/thumb1110x1110/2366861166/Stalker-Boot-Hero-Image.jpg",
   },
@@ -50,48 +51,16 @@ export const body1Data = [
       "https://www.gannett-cdn.com/-mm-/d8d0774057d19139d16e6ede624d76e89947662d/c=1-0-1365-767/local/-/media/2022/03/11/USATODAY/usatsports/imageforentry36-jak.jpg?width=1364&height=767&fit=crop&format=pjpg&auto=webp",
   },
 ];
-export const body3Data = [
-  {
-    id: 1,
-    text1: "Find out if you can",
-    text2: "SURVIVE",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non leo id enim ultricies hendrerit eu quis sapien.Ut non metus pretium, blandit mi eu, maximus nulla.",
-    image:
-      "https://as2.ftcdn.net/v2/jpg/02/50/08/45/1000_F_250084510_fvspwV88wxKxY2l3WTTESHdMW7ajLx6r.jpg",
-  },
-];
+
 export const body4Data = [
   {
     id: 1,
-    text1: "Find out if you can",
-    text2: "SURVIVE",
+    text1: "ADVICE",
+    text2: "SURVIVAL MODE",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non leo id enim ultricies hendrerit eu quis sapien.Ut non metus pretium, blandit mi eu, maximus nulla.",
+    text3: "lorem",
     image:
       "https://c1.wallpaperflare.com/preview/72/686/422/dark-night-torchlight-tent.jpg",
-  },
-];
-export const body5Data = [
-  {
-    id: 1,
-    image:
-      "https://images.unsplash.com/photo-1537905569824-f89f14cceb68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtcGluZyUyMHRlbnR8ZW58MHx8MHx8&w=1000&q=80",
-    text1: "Find out if you can",
-    text2: "SURVIVE",
-  },
-  {
-    id: 2,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQYdJeE0s0X-xsmODRmXy9HDXBktOVHeStw&usqp=CAU",
-    text1: "Find out if you can",
-    text2: "SURVIVE",
-  },
-  {
-    id: 3,
-    text1: "GALLERY",
-    text2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non leo id enim ultricies hendrerit eu quis sapien.",
-    // text2: "SURVIVE",
   },
 ];

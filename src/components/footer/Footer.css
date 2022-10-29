@@ -1,0 +1,35 @@
+.footer-container {
+  /* background-image: url("https://images.unsplash.com/photo-1542359649-31e03cd4d909?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWR2ZW50dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXcLpJOc-zfMgrAp8z58ZKBy3zTz5wOSlKzayK0C8OEjLn_UeIGcepaSgVmZghjS11X0c&usqp=CAU");
+  height: 60vh;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 6%;
+  margin-top: 10%;
+}
+.footer-content ul {
+  list-style: none;
+  display: flex;
+}
+.footer-content ul li {
+  margin-right: 10%;
+}
+.footer-content ul li h1 {
+  color: rgb(236, 39, 39);
+  font-family: "Comforter Brush", cursive;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.footer-content ul li p {
+  font-weight: 900;
+  color: #fff;
+  margin-left: 30px;
+}
+.footer-logo {
+  font-family: "Comforter Brush", cursive;
+  font-size: 2.5rem;
+  margin-top: 90%;
+  color: #fff;
+  cursor: pointer;
+}

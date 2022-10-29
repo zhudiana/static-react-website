@@ -23,16 +23,18 @@ const Body1 = (props) => {
               <h1 className="ver-text2">{props.text2} </h1>
             </div>
             <div className="ver-text2-container">
-              <p>{props.description}</p>
-              <p>
-                <FaFacebook />
-              </p>
-              <p>
-                <FaTwitter />
-              </p>
-              <p>
-                <FaInstagram />
-              </p>
+              <p className="body1-desc">{props.description}</p>
+              <div className="social">
+                <p className="body1-social-media">
+                  <FaFacebook />
+                </p>
+                <p className="body1-social-media">
+                  <FaTwitter />
+                </p>
+                <p className="body1-social-media">
+                  <FaInstagram />
+                </p>
+              </div>
             </div>
           </li>
           <li className="body1-each-list">
@@ -54,7 +56,7 @@ const Body1 = (props) => {
                   style={{
                     width: "40px",
                     marginTop: "-15px",
-                    marginLeft: "17px",
+                    marginLeft: "30px",
                   }}
                 />
               </div>
